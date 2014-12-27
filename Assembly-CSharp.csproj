@@ -46,16 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cardboard\DemoScene\Teleport.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Cardboard.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardEye.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardGUI.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardGUIMouse.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardGUIWindow.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardHead.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\SkyboxMesh.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\StereoLensFlare.cs" />
+     <Compile Include="Assets\Dive\OpenDiveSensor.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
@@ -72,18 +63,86 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
-     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\RandomHSV.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\animatedTexture.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigFader.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigPushDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigSteadyDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigSwipeDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigWaveDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigHandRaiseDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigMapJointToSession.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigSkeleton.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageAllUsers.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSingleSession.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSingleUser.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSplitScreen.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigDepthViewer.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigDepthmapToParticles.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigImageViewer.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigUserViewer.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigUsersRadar.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Zig.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\_Internal\Matrix3.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\_Internal\TimedBuffer.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\_Internal\kinectSpecific.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\ExpressionManagerScript.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\IK\BoneController.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\IK\CCDIKSolver.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\MMDEngine.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\MMDSkinsScript.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\Morph\BoneMorph.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\Morph\GroupMorph.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\Morph\MaterialMorph.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\Morph\MorphBase.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\Morph\MorphManager.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\Morph\UvMorph.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\Morph\VertexMorph.cs" />
+     <Compile Include="Assets\mmd-for-unity-master\Resources\PhysicsManager.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-NoCastShadow.shader" />
+     <None Include="Assets\ジバニャン\TPOConfig.xml" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-CullBack-NoCastShadow.shader" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-CullBack.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-NoCastShadow.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\HalfLambert.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialShadowVertFrag.cginc" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
-     <None Include="Assets\Cardboard\Resources\GUIScreen.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-CullBack-NoCastShadow.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-CullBack.shader" />
      <None Include="Assets\Automatisch_opslaan_agrabah\textures.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialDummy.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialVertFrag.cginc" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialSurface.cginc" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-CullBack-NoCastShadow.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-CullBack.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-CullBack-NoCastShadow.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-NoCastShadow.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-CullBack.shader" />
+     <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-NoCastShadow.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenNI.Net">
+ <HintPath>/Users/okuno/Develop/UnityProjects/jutan_project/Assets/ZigFu/Scripts/_Internal/OpenNI.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="ZDK">
+ <HintPath>/Users/okuno/Develop/UnityProjects/jutan_project/Assets/ZigFu/Scripts/_Internal/ZDK.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
