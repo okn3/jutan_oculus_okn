@@ -51,6 +51,7 @@
      <Compile Include="Assets\Dive\splashscreen.js" />
      <Compile Include="Assets\iosControl.js" />
      <Compile Include="Assets\move.js" />
+     <Compile Include="Assets\move_kinect.js" />
      <Compile Include="Assets\move_player.js" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-NoCastShadow.shader" />

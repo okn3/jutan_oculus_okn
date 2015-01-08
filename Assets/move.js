@@ -8,7 +8,7 @@ function Start () {
 
 function Update () {
 	vy=Input.GetAxis("Vertical");
-	transform.Translate(0, vy*0.5,0.5);
+	transform.Translate(0, vy*0.5,0.5); //動作版
 
 //上下移動で視点変更
 	 //  if (Input.GetKey("up")) {
