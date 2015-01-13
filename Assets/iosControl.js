@@ -14,7 +14,7 @@ function Start () {
 
 function Update () {
   vy=Input.GetAxis("Vertical");
-  transform.Translate(0, vy*0.5,0.5);
+  transform.Translate(0, vy*0.5,0.3);
 
 //ios
   var dir : Vector3 = Vector3.zero;
@@ -50,27 +50,15 @@ function Update () {
       rotate_rate+=0.05;
     }
   }
-
-  // 上下移動で視点変更
+// 上下移動で視点変更
     if (Input.acceleration.z < -0.5) {
-    transform.position.y -= speed*0.03;
+    transform.position.y -= speed*0.05;
     // transform.Rotate(-3,0,0);
   }
-  else if (Input.acceleration.z > 0.10) {
-    transform.position.y += speed*0.03;
+  else if (Input.acceleration.z > 0.05) {
+    transform.position.y += speed*0.10;
     // transform.Rotate(10,0,0);
   }
-
-
-//上下移動で視点変更
-   //  if (Input.GetKey("up")) {
-  //   // transform.position.y += spd*100;
-  //   transform.Rotate(-5,0,0);
-  // }
-  // else if (Input.GetKey("down")) {
-  //   // transform.position.y -= spd*100;
-  //   transform.Rotate(15,0,0);
-  // }
 
 //キーボード用
   if(Input.GetKey("right")){
@@ -86,9 +74,9 @@ function Update () {
       rotate_rate+=0.05;
     }
   }
-  if(Input.GetKeyUp("right")||Input.GetKeyUp("left")){
-    rotate_rate = 0.5;
-  }
+  // if(Input.GetKeyUp("right")||Input.GetKeyUp("left")){
+  //   rotate_rate = 0.5;
+  // }
 
 
 
