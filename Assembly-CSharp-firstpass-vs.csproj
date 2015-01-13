@@ -51,10 +51,14 @@
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\ZRNAssets\license_en.txt" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-NoCastShadow.shader" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan\Shaders\PQ_Skin.shader" />
+     <None Include="Assets\ZRNAssets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\ジバニャン\TPOConfig.xml" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-CullBack-NoCastShadow.shader" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\ZRNAssets\license_jp.txt" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans.shader" />
@@ -66,14 +70,19 @@
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-CullBack-NoCastShadow.shader" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-CullBack.shader" />
+     <None Include="Assets\ZRNAssets\005339_08932_25_14\Shaders\su_Double_and_Clip.shader" />
      <None Include="Assets\Automatisch_opslaan_agrabah\textures.txt" />
+     <None Include="Assets\ZRNAssets\PQAssets\license_jp.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialDummy.shader" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan\Shaders\PQ_TransBlue.shader" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialVertFrag.cginc" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline.shader" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialSurface.cginc" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans.shader" />
+     <None Include="Assets\ZRNAssets\005339_08932_25_14\Shaders\su_VertexCol_1UV_Single.shader" />
      <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\ZRNAssets\PQAssets\license_en.txt" />
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-CullBack-NoCastShadow.shader" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-CullBack.shader" />
@@ -81,6 +90,7 @@
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-NoCastShadow.shader" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterialOutline-Trans-CullBack.shader" />
      <None Include="Assets\mmd-for-unity-master\Resources\PMDMaterial\Shaders\MeshPmdMaterial-Trans-NoCastShadow.shader" />
+     <None Include="Assets\ZRNAssets\005339_08932_25_14\Documents\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
